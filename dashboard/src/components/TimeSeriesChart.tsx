@@ -27,7 +27,7 @@ export default function TimeSeriesChart({ data }: Props) {
   const fmtDate = (d: string) => { const [,m,day] = d.split('-'); return `${m}/${day}` }
 
   return (
-    <ResponsiveContainer width="100%" height={280}>
+    <ResponsiveContainer width="100%" height={typeof window !== "undefined" && window.innerWidth < 768 ? 220 : 280}>
       <ComposedChart data={sampled} margin={{ top: 8, right: 42, bottom: 8, left: 8 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="#eeede9" />
         <XAxis

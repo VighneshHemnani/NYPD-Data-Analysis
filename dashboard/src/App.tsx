@@ -44,7 +44,7 @@ export default function App() {
     <div>
       {/* ── Nav ── */}
       <nav className="nav">
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+        <div className="nav-left-title" style={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
           <span style={{ fontWeight: 700, fontSize: 15, color: 'var(--text)', letterSpacing: '-.3px' }}>
             NYPD Complaint Calibration
           </span>
@@ -53,10 +53,10 @@ export default function App() {
           </span>
         </div>
         <div className="nav-right">
-          <span className="chip chip-gray">NYC Open Data</span>
+<span className="chip chip-gray">NYC Open Data</span>
           <span className="chip chip-blue">Chunk 1 / 10</span>
 
-          <div style={{ width: 1, height: 18, background: 'var(--border)', margin: '0 6px' }} />
+          <div className="nav-divider-v" style={{ width: 1, height: 18, background: 'var(--border)', margin: '0 6px' }} />
 
           <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-2)' }}>Vighnesh Hemnani</span>
 

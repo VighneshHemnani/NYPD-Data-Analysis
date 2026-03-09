@@ -44,7 +44,7 @@ const TT = ({ active, payload }: { active?: boolean; payload?: { payload: Calibr
 export default function CalibrationChart({ data }: Props) {
   const chartData = data.map(d => ({ ...d, perfect: d.predicted }))
   return (
-    <ResponsiveContainer width="100%" height={280}>
+    <ResponsiveContainer width="100%" height={typeof window !== "undefined" && window.innerWidth < 768 ? 220 : 280}>
       <ComposedChart data={chartData} margin={{ top: 8, right: 24, bottom: 28, left: 8 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="#eeede9" />
         <XAxis

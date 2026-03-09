@@ -27,7 +27,7 @@ export default function BoroughHeatmap({ data }: Props) {
   return (
     <div className="hmap-scroll">
       {/* Hour labels */}
-      <div style={{ display: 'flex', marginLeft: 106, gap: 3, marginBottom: 5 }}>
+      <div style={{ display: 'flex', marginLeft: 'clamp(70px, 18vw, 106px)', gap: 3, marginBottom: 5 }}>
         {HOURS.map(h => (
           <div key={h} style={{
             width: 30, textAlign: 'center', fontSize: 9.5,
@@ -41,7 +41,7 @@ export default function BoroughHeatmap({ data }: Props) {
       {BOROUGHS.map(boro => (
         <div key={boro} style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}>
           <div style={{
-            width: 103, fontSize: 10.5, color: '#78776f', fontFamily: 'Inter',
+            width: 'clamp(68px, 18vw, 103px)', fontSize: 10, color: '#78776f', fontFamily: 'Inter',
             fontWeight: 600, flexShrink: 0, paddingRight: 8, textAlign: 'right',
             letterSpacing: '.01em',
           }}>
@@ -55,14 +55,14 @@ export default function BoroughHeatmap({ data }: Props) {
             const tip      = `${boro} ${h}:00 · ${count.toLocaleString()} complaints · ${(felony * 100).toFixed(1)}% felony`
             return (
               <div key={h} className="hmap-cell"
-                style={{ width: 30, background: bg }}
+                style={{ width: 'clamp(18px, 3.5vw, 30px)', background: bg }}
                 data-tip={tip} title={tip} />
             )
           })}
         </div>
       ))}
 
-      <div className="hmap-legend" style={{ marginLeft: 106 }}>
+      <div className="hmap-legend" style={{ marginLeft: 'clamp(70px, 18vw, 106px)' }}>
         <span>Low</span>
         <div className="hmap-legend-bar"
           style={{ background: 'linear-gradient(to right, #fff, #00d964)' }} />
