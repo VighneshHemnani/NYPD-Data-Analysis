@@ -1,0 +1,202 @@
+[
+  {
+    "crime":"ASSAULT 3 & RELATED OFFENSES",
+    "borough":"BRONX",
+    "probability":0.1352
+  },
+  {
+    "crime":"ASSAULT 3 & RELATED OFFENSES",
+    "borough":"BROOKLYN",
+    "probability":0.1104
+  },
+  {
+    "crime":"ASSAULT 3 & RELATED OFFENSES",
+    "borough":"MANHATTAN",
+    "probability":0.094
+  },
+  {
+    "crime":"ASSAULT 3 & RELATED OFFENSES",
+    "borough":"QUEENS",
+    "probability":0.1174
+  },
+  {
+    "crime":"ASSAULT 3 & RELATED OFFENSES",
+    "borough":"STATEN ISLAND",
+    "probability":0.1024
+  },
+  {
+    "crime":"CRIMINAL MISCHIEF & RELATED OF",
+    "borough":"BRONX",
+    "probability":0.1062
+  },
+  {
+    "crime":"CRIMINAL MISCHIEF & RELATED OF",
+    "borough":"BROOKLYN",
+    "probability":0.1029
+  },
+  {
+    "crime":"CRIMINAL MISCHIEF & RELATED OF",
+    "borough":"MANHATTAN",
+    "probability":0.0794
+  },
+  {
+    "crime":"CRIMINAL MISCHIEF & RELATED OF",
+    "borough":"QUEENS",
+    "probability":0.1109
+  },
+  {
+    "crime":"CRIMINAL MISCHIEF & RELATED OF",
+    "borough":"STATEN ISLAND",
+    "probability":0.1265
+  },
+  {
+    "crime":"DANGEROUS DRUGS",
+    "borough":"BRONX",
+    "probability":0.0634
+  },
+  {
+    "crime":"DANGEROUS DRUGS",
+    "borough":"BROOKLYN",
+    "probability":0.0359
+  },
+  {
+    "crime":"DANGEROUS DRUGS",
+    "borough":"MANHATTAN",
+    "probability":0.042
+  },
+  {
+    "crime":"DANGEROUS DRUGS",
+    "borough":"QUEENS",
+    "probability":0.0161
+  },
+  {
+    "crime":"DANGEROUS DRUGS",
+    "borough":"STATEN ISLAND",
+    "probability":0.0307
+  },
+  {
+    "crime":"FELONY ASSAULT",
+    "borough":"BRONX",
+    "probability":0.0562
+  },
+  {
+    "crime":"FELONY ASSAULT",
+    "borough":"BROOKLYN",
+    "probability":0.0448
+  },
+  {
+    "crime":"FELONY ASSAULT",
+    "borough":"MANHATTAN",
+    "probability":0.0326
+  },
+  {
+    "crime":"FELONY ASSAULT",
+    "borough":"QUEENS",
+    "probability":0.0426
+  },
+  {
+    "crime":"FELONY ASSAULT",
+    "borough":"STATEN ISLAND",
+    "probability":0.0316
+  },
+  {
+    "crime":"GRAND LARCENY",
+    "borough":"BRONX",
+    "probability":0.0613
+  },
+  {
+    "crime":"GRAND LARCENY",
+    "borough":"BROOKLYN",
+    "probability":0.084
+  },
+  {
+    "crime":"GRAND LARCENY",
+    "borough":"MANHATTAN",
+    "probability":0.1419
+  },
+  {
+    "crime":"GRAND LARCENY",
+    "borough":"QUEENS",
+    "probability":0.0851
+  },
+  {
+    "crime":"GRAND LARCENY",
+    "borough":"STATEN ISLAND",
+    "probability":0.0551
+  },
+  {
+    "crime":"HARRASSMENT 2",
+    "borough":"BRONX",
+    "probability":0.1524
+  },
+  {
+    "crime":"HARRASSMENT 2",
+    "borough":"BROOKLYN",
+    "probability":0.1451
+  },
+  {
+    "crime":"HARRASSMENT 2",
+    "borough":"MANHATTAN",
+    "probability":0.121
+  },
+  {
+    "crime":"HARRASSMENT 2",
+    "borough":"QUEENS",
+    "probability":0.1526
+  },
+  {
+    "crime":"HARRASSMENT 2",
+    "borough":"STATEN ISLAND",
+    "probability":0.2052
+  },
+  {
+    "crime":"OFF. AGNST PUB ORD SENSBLTY &",
+    "borough":"BRONX",
+    "probability":0.0451
+  },
+  {
+    "crime":"OFF. AGNST PUB ORD SENSBLTY &",
+    "borough":"BROOKLYN",
+    "probability":0.0467
+  },
+  {
+    "crime":"OFF. AGNST PUB ORD SENSBLTY &",
+    "borough":"MANHATTAN",
+    "probability":0.0397
+  },
+  {
+    "crime":"OFF. AGNST PUB ORD SENSBLTY &",
+    "borough":"QUEENS",
+    "probability":0.042
+  },
+  {
+    "crime":"OFF. AGNST PUB ORD SENSBLTY &",
+    "borough":"STATEN ISLAND",
+    "probability":0.0602
+  },
+  {
+    "crime":"PETIT LARCENY",
+    "borough":"BRONX",
+    "probability":0.1494
+  },
+  {
+    "crime":"PETIT LARCENY",
+    "borough":"BROOKLYN",
+    "probability":0.175
+  },
+  {
+    "crime":"PETIT LARCENY",
+    "borough":"MANHATTAN",
+    "probability":0.2414
+  },
+  {
+    "crime":"PETIT LARCENY",
+    "borough":"QUEENS",
+    "probability":0.1763
+  },
+  {
+    "crime":"PETIT LARCENY",
+    "borough":"STATEN ISLAND",
+    "probability":0.1545
+  }
+]

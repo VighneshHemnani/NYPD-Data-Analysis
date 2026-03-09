@@ -1,0 +1,17 @@
+# Data files - too large for GitHub
+analysis/data/
+*.csv
+
+# Dependencies
+node_modules/
+dashboard/node_modules/
+
+# Build output
+dashboard/dist/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Vite
+dashboard/.vite/
