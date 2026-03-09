@@ -3,7 +3,7 @@
 A prediction-market-framed analysis of NYPD complaint data.  
 Python notebook does the analysis; TypeScript dashboard visualizes the output.
 
-**Live demo:** [your-netlify-url.netlify.app]
+**Live demo:** https://nypd-calibration.netlify.app/
 
 ---
 
