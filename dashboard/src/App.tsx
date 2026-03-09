@@ -53,7 +53,6 @@ export default function App() {
           </span>
         </div>
         <div className="nav-right">
-          <span className="chip chip-green">● Live Data</span>
           <span className="chip chip-gray">NYC Open Data</span>
           <span className="chip chip-blue">Chunk 1 / 10</span>
 
